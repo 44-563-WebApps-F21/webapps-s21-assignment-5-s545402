@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Animals World</title>
+  <title>Animals by Tirumala Swathi Pitchala</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -15,9 +15,28 @@
 </head>
 
 <body>
-    <h1>Animals by Tirumala Swathi</h1>
+  <h4>Animals by Tirumala Swathi</h4>
+  <nav class="navbar navbar-expand-lg navbar-info bg-light">
+    
     <p>Letters picked from my last Name - P,I,T,C,H,A</p>
     <div class="container">
+      <a class="navbar-brand" href="animals.html">Interesting Animals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" aria-current="page" href="Plane.html">Plane</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="train.html">Train</a>
+                </li>
+            </ul>
+    </nav>
         <div class="row">
             <div class="col-sm-2">P</div>
             <div class="col-sm-2">I</div>
@@ -41,5 +60,164 @@
         are col-sm-2 Small and col-md Medium.The letters class grid
         structure is small, they stay horizontal, whereas the animal elements
         switch to vertical when the screen size falls bewlo 768px i.e.,Medium</p>
+        <br>
+        <h4>Images</h4>
+        <br>
+        <div class="container">
+            <img src="tiger.jpg" class="img-fluid" alt="tiger" style="width: 400px; height: 400px">
+            <img src="horse.jpg" class="img-fluid" alt="horse" style="width: 400px; height: 400px">
+            <img src="cow.jpg" class="img-fluid" alt="cow" style="width: 400px; height: 400px">
+        </div>
+        <br>
+    
+        <h4>Image Thumbnails</h4>
+        <br>
+        <div class="container">
+            <img src="tiger.jpg" class="img-thumbnail" alt="tiger" style="width: 400px; height: 400px">
+            <img src="horse.jpg" class="img-thumbnail" alt="horse" style="width: 400px; height: 400px">
+            <img src="cow.jpg" class="img-thumbnail" alt="cow" style="width: 400px; height: 400px">
+        </div>  
+        <br>
+    <table class="table caption-top table-bordered table-hover table-striped table-sm table-success"
+        style="width: 800px; height: 300px; margin-left: auto; margin-right: auto">
+        <caption> List of letters picked</caption>
+        <thead>
+            <tr>
+                <th scope="col">Letter</th>
+                <th scope="col">Animal</th>
+                <th scope="col">City</th>
+                <th scope="col">Car</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>P</td>
+                <td>Pengin</td>
+                <td>Paris</td>
+                <td>Polaris</td>
+            </tr>
+            <tr>
+                <td>I</td>
+                <td>Impalas</td>
+                <td>Indiana</td>
+                <td>Imperial</td>
+            </tr>
+            <tr>
+                <td>T</td>
+                <td>Tiger</td>
+                <td>Tacoma</td>
+                <td>Tesla</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Cow</td>
+                <td>Charlotte</td>
+                <td>Capora</td>
+            </tr>
+            <tr>
+                <td>H</td>
+                <td>Horse</td>
+                <td>Houston</td>
+                <td>Hyundai</td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>Angelfish</td>
+                <td>Arkansa</td>
+                <td>Alpine</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <button type="button" class="btn btn-secondary">P</button>
+    <button type="button" class="btn btn-secondary">I</button>
+    <button type="button" class="btn btn-secondary">T</button>
+    <button type="button" class="btn btn-secondary">C</button>
+    <button type="button" class="btn btn-secondary">H</button>
+    <button type="button" class="btn btn-secondary">A</button>
+    <br></br> 
+    <nav class="navbar navbar-">
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group me-1" role="group">
+              <button type="button" class="btn btn-success">T</button>
+              <button type="button" class="btn btn-success">H</button>
+              <button type="button" class="btn btn-success">C</button>
+          </div>
+          <br>
+          <div class="btn-group me-2" role="group">
+              <button type="button" class="btn btn-warning">P</button>
+              <button type="button" class="btn btn-warning">I</button>
+          </div>
+          <br>
+          <div class="btn-group me-3" role="group">
+              <button type="button" class="btn btn-danger">A</button>
+          </div>
+      </div>
+</nav>
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      Select Page
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      <li><a class="dropdown-item" href="plane.html">Plane Page</a></li>
+      <li><a class="dropdown-item" href="train.html">Train Page</a></li>
+  </ul>
+</div>
+<br>
+<form>
+  <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Enter your E-mail">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.
+  </div>
+  </div>
+  <div class="form-group">
+      <label for="exampleInputPassword1">Animal</label>
+      <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your animal">
+  </div>
+  <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<br></br>
+<div class="card-group">
+  <div class="card">
+      <img class="card-img-top" src="tiger.jpg" alt="Tiger">
+      <div class="card-body">
+          <h5 class="card-title">Tiger</h5>
+          <p class="card-text">The tiger (Panthera tigris) is the largest living cat species and a member of the genus Panthera.
+               It is most recognisable for its dark vertical stripes on orange-brown fur with a lighter underside. 
+               It is an apex predator, primarily preying on ungulates such as deer and wild boar.</p>
+          <a href="https://en.wikipedia.org/wiki/Tiger" class="btn btn-primary">Read more</a>
+      </div>
+  </div>
+  <div class="card">
+      <img class="card-img-top" src="horse.jpg" alt="Horse">
+      <div class="card-body">
+          <h5 class="card-title">Horse</h5>
+          <p class="card-text">The horse or domestic horse (Equus caballus or Equus ferus caballus)[2][3] is a domesticated one-toed hoofed mammal.
+             It belongs to the taxonomic family Equidae and is one of two extant species in the subgenus Equus.
+          </p>
+          <a href="https://en.wikipedia.org/wiki/Horse" class="btn btn-primary">Read more</a>
+      </div>
+  </div>
+  <div class="card">
+      <img class="card-img-top" src="cow.jpg" alt="Cow">
+      <div class="card-body">
+          <h5 class="card-title">Cow</h5>
+          <p class="card-text">Cow/Cattle, taurine cattle, or European cattle (Bos taurus or Bos primigenus taurus) are large domesticated cloven-hooved herbivores. 
+            They are a prominent modern member of the subfamily Bovinae, are the most widespread species of the genus Bos.
+             Depending on sex, they are referred to as cows (female) or bulls (male)..</p>
+          <a href="https://en.wikipedia.org/wiki/Cattle" class="btn btn-primary">Read more</a>
+      </div>
+  </div>
+</div>
+    
+  
     </body>
     </html>
